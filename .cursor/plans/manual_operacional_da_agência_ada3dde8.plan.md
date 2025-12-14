@@ -1,27 +1,3 @@
----
-name: Manual Operacional da Agência
-overview: Desenhar um manual operacional completo (processos, subprocessos, tarefas, checklists, exceções, métricas e automações) para uma agência full-funnel focada em Meta Ads, pronto para implementação em um sistema tipo FL (Notion + Make/Zapier).
-todos:
-  - id: fundacao-notion
-    content: "Definir a arquitetura do FL (Notion): bases de dados, propriedades obrigatórias, relações, status/pipelines e templates base (cliente, projeto, tarefa, campanha, criativo, incidente, cobrança, acesso)."
-    status: completed
-  - id: mapa-processos
-    content: "Consolidar o mapa macro P1–P17 e listar subprocessos (P?.1, P?.2…) por macroprocesso, já com indicação: tarefa única vs recorrente vs pipeline vs automação."
-    status: completed
-  - id: sops-core
-    content: Especificar em ficha completa os subprocessos do fluxo crítico (P2–P11), incluindo checklists, critérios de qualidade, métricas e exceções (não-resposta, reprovação, atraso, queda de performance).
-    status: in_progress
-  - id: sops-entrega
-    content: "Detalhar profundamente a operação de tráfego/produção/tracking (P5–P9): pesquisa, estratégia, produção, setup, launch QA, rotinas diária/semanal/mensal, regras de decisão e registro de testes/aprendizados."
-    status: pending
-  - id: sops-escala
-    content: "Completar os processos de escala e governança (P13–P17): financeiro, pessoas/capacidade, documentação/acessos, compliance/LGPD, QA e melhoria contínua."
-    status: pending
-  - id: automacoes
-    content: Mapear automações prioritárias Make/Zapier (gatilho→ação) conectando WhatsApp/e-mail/Meta Lead Ads/Notion, e definir campos mínimos para rastreabilidade e dashboards.
-    status: pending
----
-
 # Manual Operacional da Agência (Meta Ads Full-Funnel)
 
 ## Premissas (explícitas)
